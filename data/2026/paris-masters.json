@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-05T17:32:00Z",
+  "updated_at": "2026-11-05T20:01:40Z",
   "source": "ATP Tour, Tennis.com und tennis-db.com via Claude",
   "tournament": {
     "id": "atp:2026-352",
@@ -373,6 +373,16 @@
       "retired": false
     },
     {
+      "id": "atp:2026-352:quarterfinal:a0e2-fb98",
+      "round": "quarterfinal",
+      "start": "2026-11-06T18:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:fb98",
+      "player2": "atp:a0e2",
+      "walkover": false,
+      "retired": false
+    },
+    {
       "id": "atp:2026-352:round_of_16:m0ej-v0dz",
       "round": "round_of_16",
       "start": "2026-11-05T13:50:00Z",
@@ -604,11 +614,40 @@
       "id": "atp:2026-352:round_of_16:f0f1-fb98",
       "round": "round_of_16",
       "start": "2026-11-05T18:00:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:f0f1",
       "player2": "atp:fb98",
+      "winner": "atp:fb98",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 3,
+          "p2": 6
+        },
+        {
+          "p1": 4,
+          "p2": 6
+        }
+      ],
+      "stats": {
+        "atp:f0f1": {
+          "aces": 6,
+          "double_faults": 1,
+          "breakpoints_won": 0,
+          "breakpoints_total": 0,
+          "service_games_won": 7,
+          "tiebreaks_won": 0
+        },
+        "atp:fb98": {
+          "aces": 14,
+          "double_faults": 0,
+          "breakpoints_won": 2,
+          "breakpoints_total": 4,
+          "service_games_won": 10,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-352:round_of_16:a0e2-bk40",
