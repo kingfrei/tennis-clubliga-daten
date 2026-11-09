@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-09T07:17:46Z",
+  "source": "ATP Tour, Tennis.com und tennis-db.com via Claude",
+  "tournament": {
+    "id": "atp:2026-429",
+    "name": "Stockholm Open",
+    "category": "atp_250",
+    "country": "SWE",
+    "start": "2026-11-08",
+    "end": "2026-11-14",
+    "best_of": 3,
+    "draw_size": 28
+  },
+  "players": {
+    "atp:fb98": {
+      "name": "Taylor Fritz",
+      "country": "USA",
+      "seed": 1,
+      "form_wins_last10": 7
+    },
+    "atp:rh16": {
+      "name": "Casper Ruud",
+      "country": "NOR",
+      "seed": 2,
+      "form_wins_last10": 7
+    },
+    "atp:m0ej": {
+      "name": "Lorenzo Musetti",
+      "country": "ITA",
+      "seed": 3,
+      "form_wins_last10": 8
+    },
+    "atp:te30": {
+      "name": "Alejandro Tabilo",
+      "country": "CHI",
+      "seed": 4,
+      "form_wins_last10": 3
+    },
+    "atp:ea24": {
+      "name": "Tomas Martin Etcheverry",
+      "country": "ARG",
+      "seed": 5,
+      "form_wins_last10": 3
+    },
+    "atp:m0qi": {
+      "name": "Alex Michelsen",
+      "country": "USA",
+      "seed": 6,
+      "form_wins_last10": 4
+    },
+    "atp:hh26": {
+      "name": "Ugo Humbert",
+      "country": "FRA",
+      "seed": 7,
+      "form_wins_last10": 2
+    },
+    "atp:bu13": {
+      "name": "Zizou Bergs",
+      "country": "BEL",
+      "seed": 8,
+      "form_wins_last10": 5
+    },
+    "atp:d994": {
+      "name": "James Duckworth",
+      "country": "AUS",
+      "seed": null,
+      "form_wins_last10": 3
+    },
+    "atp:n771": {
+      "name": "Cameron Norrie",
+      "country": "GBR",
+      "seed": null,
+      "form_wins_last10": 3
+    },
+    "atp:rc91": {
+      "name": "Arthur Rinderknech",
+      "country": "FRA",
+      "seed": null,
+      "form_wins_last10": 5
+    },
+    "atp:ki95": {
+      "name": "Miomir Kecmanovic",
+      "country": "SRB",
+      "seed": null,
+      "form_wins_last10": 2
+    },
+    "atp:r0dg": {
+      "name": "Holger Rune",
+      "country": "DEN",
+      "seed": null,
+      "form_wins_last10": 4
+    },
+    "atp:b0jg": {
+      "name": "Leo Borg",
+      "country": "SWE",
+      "seed": null,
+      "form_wins_last10": 2
+    },
+    "atp:s0tm": {
+      "name": "Toby Samuel",
+      "country": "GBR",
+      "seed": null,
+      "form_wins_last10": 6
+    },
+    "atp:m0fh": {
+      "name": "Tomas Machac",
+      "country": "CZE",
+      "seed": null,
+      "form_wins_last10": 6
+    },
+    "atp:gh92": {
+      "name": "Borna Gojo",
+      "country": "CRO",
+      "seed": null,
+      "form_wins_last10": 6
+    },
+    "atp:v0dp": {
+      "name": "Adolfo Daniel Vallejo",
+      "country": "PAR",
+      "seed": null,
+      "form_wins_last10": 5
+    },
+    "atp:h997": {
+      "name": "Yannick Hanfmann",
+      "country": "GER",
+      "seed": null,
+      "form_wins_last10": 4
+    },
+    "atp:y218": {
+      "name": "Elias Ymer",
+      "country": "SWE",
+      "seed": null,
+      "form_wins_last10": 4
+    },
+    "atp:c0c8": {
+      "name": "Juan Manuel Cerundolo",
+      "country": "ARG",
+      "seed": null,
+      "form_wins_last10": 5
+    },
+    "atp:su87": {
+      "name": "Lorenzo Sonego",
+      "country": "ITA",
+      "seed": null,
+      "form_wins_last10": 4
+    },
+    "atp:hb64": {
+      "name": "Quentin Halys",
+      "country": "FRA",
+      "seed": null,
+      "form_wins_last10": 5
+    },
+    "atp:d0i5": {
+      "name": "Max Dahlin",
+      "country": "SWE",
+      "seed": null,
+      "form_wins_last10": null
+    },
+    "atp:t0a1": {
+      "name": "Thiago Agustin Tirante",
+      "country": "ARG",
+      "seed": null,
+      "form_wins_last10": 2
+    },
+    "atp:mu94": {
+      "name": "Jaume Munar",
+      "country": "ESP",
+      "seed": null,
+      "form_wins_last10": 6
+    },
+    "atp:v0dz": {
+      "name": "Luca Van Assche",
+      "country": "FRA",
+      "seed": null,
+      "form_wins_last10": 6
+    },
+    "atp:s0h2": {
+      "name": "Aleksandr Shevchenko",
+      "country": "KAZ",
+      "seed": null,
+      "form_wins_last10": 3
+    }
+  },
+  "matches": [
+    {
+      "id": "atp:2026-429:round_of_32:d994-n771",
+      "round": "round_of_32",
+      "start": "2026-11-09T12:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:d994",
+      "player2": "atp:n771",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:hh26-v0dp",
+      "round": "round_of_32",
+      "start": "2026-11-09T14:00:00Z",
+      "start_estimated": true,
+      "status": "scheduled",
+      "player1": "atp:v0dp",
+      "player2": "atp:hh26",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:d0i5-ea24",
+      "round": "round_of_32",
+      "start": "2026-11-09T17:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:ea24",
+      "player2": "atp:d0i5",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:b0jg-s0tm",
+      "round": "round_of_32",
+      "start": "2026-11-09T19:00:00Z",
+      "start_estimated": true,
+      "status": "scheduled",
+      "player1": "atp:b0jg",
+      "player2": "atp:s0tm",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:h997-m0qi",
+      "round": "round_of_32",
+      "start": "2026-11-09T12:00:00Z",
+      "start_estimated": true,
+      "status": "scheduled",
+      "player1": "atp:m0qi",
+      "player2": "atp:h997",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:gh92-m0fh",
+      "round": "round_of_32",
+      "start": "2026-11-09T14:00:00Z",
+      "start_estimated": true,
+      "status": "scheduled",
+      "player1": "atp:m0fh",
+      "player2": "atp:gh92",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:c0c8-y218",
+      "round": "round_of_32",
+      "start": "2026-11-08T15:00:00Z",
+      "status": "finished",
+      "player1": "atp:y218",
+      "player2": "atp:c0c8",
+      "winner": "atp:c0c8",
+      "walkover": false,
+      "retired": false,
+      "sets": [
+        {
+          "p1": 1,
+          "p2": 6
+        },
+        {
+          "p1": 6,
+          "p2": 7,
+          "tiebreak": {
+            "p1": 4,
+            "p2": 7
+          }
+        }
+      ],
+      "stats": {
+        "atp:y218": {
+          "aces": 8,
+          "double_faults": 1,
+          "breakpoints_won": 0,
+          "breakpoints_total": 1,
+          "service_games_won": 7,
+          "tiebreaks_won": 0
+        },
+        "atp:c0c8": {
+          "aces": 2,
+          "double_faults": 2,
+          "breakpoints_won": 3,
+          "breakpoints_total": 5,
+          "service_games_won": 9,
+          "tiebreaks_won": 1
+        }
+      }
+    },
+    {
+      "id": "atp:2026-429:round_of_32:mu94-t0a1",
+      "round": "round_of_32",
+      "start": "2026-11-08T17:00:00Z",
+      "start_estimated": true,
+      "status": "finished",
+      "player1": "atp:t0a1",
+      "player2": "atp:mu94",
+      "winner": "atp:t0a1",
+      "walkover": false,
+      "retired": false,
+      "sets": [
+        {
+          "p1": 7,
+          "p2": 6,
+          "tiebreak": {
+            "p1": 7,
+            "p2": 3
+          }
+        },
+        {
+          "p1": 6,
+          "p2": 3
+        }
+      ],
+      "stats": {
+        "atp:t0a1": {
+          "aces": 16,
+          "double_faults": 2,
+          "breakpoints_won": 1,
+          "breakpoints_total": 2,
+          "service_games_won": 11,
+          "tiebreaks_won": 1
+        },
+        "atp:mu94": {
+          "aces": 4,
+          "double_faults": 1,
+          "breakpoints_won": 0,
+          "breakpoints_total": 0,
+          "service_games_won": 9,
+          "tiebreaks_won": 0
+        }
+      }
+    }
+  ]
+}
