@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T07:17:46Z",
+  "updated_at": "2026-11-09T13:10:34Z",
   "source": "ATP Tour, Tennis.com und tennis-db.com via Claude",
   "tournament": {
     "id": "atp:2026-429",
@@ -173,13 +173,20 @@
       "name": "Luca Van Assche",
       "country": "FRA",
       "seed": null,
-      "form_wins_last10": 6
+      "form_wins_last10": 6,
+      "withdrawn": true
     },
     "atp:s0h2": {
       "name": "Aleksandr Shevchenko",
       "country": "KAZ",
       "seed": null,
       "form_wins_last10": 3
+    },
+    "atp:me82": {
+      "name": "Adrian Mannarino",
+      "country": "FRA",
+      "seed": null,
+      "form_wins_last10": 7
     }
   },
   "matches": [
@@ -230,11 +237,40 @@
       "round": "round_of_32",
       "start": "2026-11-09T12:00:00Z",
       "start_estimated": true,
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:m0qi",
       "player2": "atp:h997",
+      "winner": "atp:m0qi",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 6,
+          "p2": 2
+        },
+        {
+          "p1": 6,
+          "p2": 3
+        }
+      ],
+      "stats": {
+        "atp:m0qi": {
+          "aces": 6,
+          "double_faults": 1,
+          "breakpoints_won": 3,
+          "breakpoints_total": 5,
+          "service_games_won": 9,
+          "tiebreaks_won": 0
+        },
+        "atp:h997": {
+          "aces": 3,
+          "double_faults": 1,
+          "breakpoints_won": 0,
+          "breakpoints_total": 1,
+          "service_games_won": 5,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-429:round_of_32:gh92-m0fh",
@@ -333,6 +369,58 @@
           "tiebreaks_won": 0
         }
       }
+    },
+    {
+      "id": "atp:2026-429:round_of_16:c0c8-m0qi",
+      "round": "round_of_16",
+      "start": "2026-11-10T12:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:m0qi",
+      "player2": "atp:c0c8",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:bu13-r0dg",
+      "round": "round_of_32",
+      "start": "2026-11-10T17:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:r0dg",
+      "player2": "atp:bu13",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:me82-s0h2",
+      "round": "round_of_32",
+      "start": "2026-11-10T12:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:me82",
+      "player2": "atp:s0h2",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:hb64-su87",
+      "round": "round_of_32",
+      "start": "2026-11-10T14:00:00Z",
+      "start_estimated": true,
+      "status": "scheduled",
+      "player1": "atp:su87",
+      "player2": "atp:hb64",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_32:ki95-rc91",
+      "round": "round_of_32",
+      "start": "2026-11-10T16:00:00Z",
+      "start_estimated": true,
+      "status": "scheduled",
+      "player1": "atp:rc91",
+      "player2": "atp:ki95",
+      "walkover": false,
+      "retired": false
     }
   ]
 }
