@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-10T05:45:22Z",
+  "updated_at": "2026-11-10T07:10:29Z",
   "source": "ATP Tour, Tennis.com und tennis-db.com via Claude",
   "tournament": {
     "id": "atp:2026-429",
@@ -249,7 +249,25 @@
           "p1": 3,
           "p2": 6
         }
-      ]
+      ],
+      "stats": {
+        "atp:v0dp": {
+          "aces": 0,
+          "double_faults": 3,
+          "breakpoints_won": 3,
+          "breakpoints_total": 11,
+          "service_games_won": 4,
+          "tiebreaks_won": 0
+        },
+        "atp:hh26": {
+          "aces": 4,
+          "double_faults": 0,
+          "breakpoints_won": 6,
+          "breakpoints_total": 9,
+          "service_games_won": 6,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-429:round_of_32:d0i5-ea24",
