@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-09T13:10:34Z",
+  "updated_at": "2026-11-10T05:45:22Z",
   "source": "ATP Tour, Tennis.com und tennis-db.com via Claude",
   "tournament": {
     "id": "atp:2026-429",
@@ -194,43 +194,149 @@
       "id": "atp:2026-429:round_of_32:d994-n771",
       "round": "round_of_32",
       "start": "2026-11-09T12:00:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:d994",
       "player2": "atp:n771",
+      "winner": "atp:n771",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 5,
+          "p2": 7
+        },
+        {
+          "p1": 0,
+          "p2": 6
+        }
+      ],
+      "stats": {
+        "atp:d994": {
+          "aces": 3,
+          "double_faults": 2,
+          "breakpoints_won": 0,
+          "breakpoints_total": 1,
+          "service_games_won": 5,
+          "tiebreaks_won": 0
+        },
+        "atp:n771": {
+          "aces": 10,
+          "double_faults": 0,
+          "breakpoints_won": 4,
+          "breakpoints_total": 7,
+          "service_games_won": 9,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-429:round_of_32:hh26-v0dp",
       "round": "round_of_32",
       "start": "2026-11-09T14:00:00Z",
       "start_estimated": true,
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:v0dp",
       "player2": "atp:hh26",
+      "winner": "atp:hh26",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 4,
+          "p2": 6
+        },
+        {
+          "p1": 3,
+          "p2": 6
+        }
+      ]
     },
     {
       "id": "atp:2026-429:round_of_32:d0i5-ea24",
       "round": "round_of_32",
       "start": "2026-11-09T17:00:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:ea24",
       "player2": "atp:d0i5",
+      "winner": "atp:ea24",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 6,
+          "p2": 4
+        },
+        {
+          "p1": 6,
+          "p2": 7,
+          "tiebreak": {
+            "p1": 6,
+            "p2": 8
+          }
+        },
+        {
+          "p1": 6,
+          "p2": 3
+        }
+      ],
+      "stats": {
+        "atp:ea24": {
+          "aces": 10,
+          "double_faults": 0,
+          "breakpoints_won": 2,
+          "breakpoints_total": 8,
+          "service_games_won": 16,
+          "tiebreaks_won": 0
+        },
+        "atp:d0i5": {
+          "aces": 9,
+          "double_faults": 2,
+          "breakpoints_won": 0,
+          "breakpoints_total": 0,
+          "service_games_won": 13,
+          "tiebreaks_won": 1
+        }
+      }
     },
     {
       "id": "atp:2026-429:round_of_32:b0jg-s0tm",
       "round": "round_of_32",
       "start": "2026-11-09T19:00:00Z",
       "start_estimated": true,
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:b0jg",
       "player2": "atp:s0tm",
+      "winner": "atp:s0tm",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 3,
+          "p2": 6
+        },
+        {
+          "p1": 2,
+          "p2": 6
+        }
+      ],
+      "stats": {
+        "atp:b0jg": {
+          "aces": 1,
+          "double_faults": 6,
+          "breakpoints_won": 1,
+          "breakpoints_total": 1,
+          "service_games_won": 4,
+          "tiebreaks_won": 0
+        },
+        "atp:s0tm": {
+          "aces": 4,
+          "double_faults": 2,
+          "breakpoints_won": 4,
+          "breakpoints_total": 11,
+          "service_games_won": 8,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-429:round_of_32:h997-m0qi",
@@ -277,11 +383,40 @@
       "round": "round_of_32",
       "start": "2026-11-09T14:00:00Z",
       "start_estimated": true,
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:m0fh",
       "player2": "atp:gh92",
+      "winner": "atp:gh92",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 3,
+          "p2": 6
+        },
+        {
+          "p1": 4,
+          "p2": 6
+        }
+      ],
+      "stats": {
+        "atp:m0fh": {
+          "aces": 0,
+          "double_faults": 2,
+          "breakpoints_won": 0,
+          "breakpoints_total": 6,
+          "service_games_won": 7,
+          "tiebreaks_won": 0
+        },
+        "atp:gh92": {
+          "aces": 14,
+          "double_faults": 2,
+          "breakpoints_won": 2,
+          "breakpoints_total": 6,
+          "service_games_won": 10,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-429:round_of_32:c0c8-y218",
@@ -419,6 +554,27 @@
       "status": "scheduled",
       "player1": "atp:rc91",
       "player2": "atp:ki95",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_16:ea24-t0a1",
+      "round": "round_of_16",
+      "start": "2026-11-10T13:30:00Z",
+      "status": "scheduled",
+      "player1": "atp:ea24",
+      "player2": "atp:t0a1",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:round_of_16:m0ej-s0tm",
+      "round": "round_of_16",
+      "start": "2026-11-10T19:00:00Z",
+      "start_estimated": true,
+      "status": "scheduled",
+      "player1": "atp:m0ej",
+      "player2": "atp:s0tm",
       "walkover": false,
       "retired": false
     }
