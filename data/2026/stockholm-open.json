@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-12T08:00:46Z",
+  "updated_at": "2026-11-13T09:58:34Z",
   "source": "ATP Tour, Tennis.com und tennis-db.com via Claude",
   "tournament": {
     "id": "atp:2026-429",
@@ -1007,40 +1007,172 @@
       "id": "atp:2026-429:quarterfinal:m0qi-te30",
       "round": "quarterfinal",
       "start": "2026-11-12T12:00:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:m0qi",
       "player2": "atp:te30",
+      "winner": "atp:te30",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 5,
+          "p2": 7
+        },
+        {
+          "p1": 6,
+          "p2": 7,
+          "tiebreak": {
+            "p1": 2,
+            "p2": 7
+          }
+        }
+      ],
+      "stats": {
+        "atp:m0qi": {
+          "aces": 8,
+          "double_faults": 1,
+          "breakpoints_won": 1,
+          "breakpoints_total": 7,
+          "service_games_won": 10,
+          "tiebreaks_won": 0
+        },
+        "atp:te30": {
+          "aces": 5,
+          "double_faults": 4,
+          "breakpoints_won": 2,
+          "breakpoints_total": 4,
+          "service_games_won": 11,
+          "tiebreaks_won": 1
+        }
+      }
     },
     {
       "id": "atp:2026-429:quarterfinal:hh26-m0ej",
       "round": "quarterfinal",
       "start": "2026-11-12T19:30:00Z",
       "start_estimated": true,
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:m0ej",
       "player2": "atp:hh26",
+      "winner": "atp:m0ej",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 7,
+          "p2": 6,
+          "tiebreak": {
+            "p1": 7,
+            "p2": 5
+          }
+        },
+        {
+          "p1": 3,
+          "p2": 6
+        },
+        {
+          "p1": 6,
+          "p2": 4
+        }
+      ],
+      "stats": {
+        "atp:m0ej": {
+          "aces": 6,
+          "double_faults": 1,
+          "breakpoints_won": 2,
+          "breakpoints_total": 4,
+          "service_games_won": 13,
+          "tiebreaks_won": 1
+        },
+        "atp:hh26": {
+          "aces": 13,
+          "double_faults": 4,
+          "breakpoints_won": 2,
+          "breakpoints_total": 5,
+          "service_games_won": 14,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-429:quarterfinal:s0h2-t0a1",
       "round": "quarterfinal",
       "start": "2026-11-12T14:00:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:t0a1",
       "player2": "atp:s0h2",
+      "winner": "atp:t0a1",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 7,
+          "p2": 6,
+          "tiebreak": {
+            "p1": 7,
+            "p2": 5
+          }
+        },
+        {
+          "p1": 6,
+          "p2": 7,
+          "tiebreak": {
+            "p1": 5,
+            "p2": 7
+          }
+        },
+        {
+          "p1": 6,
+          "p2": 3
+        }
+      ],
+      "stats": {
+        "atp:t0a1": {
+          "aces": 20,
+          "double_faults": 3,
+          "breakpoints_won": 1,
+          "breakpoints_total": 5,
+          "service_games_won": 17,
+          "tiebreaks_won": 1
+        },
+        "atp:s0h2": {
+          "aces": 8,
+          "double_faults": 2,
+          "breakpoints_won": 0,
+          "breakpoints_total": 3,
+          "service_games_won": 15,
+          "tiebreaks_won": 1
+        }
+      }
     },
     {
       "id": "atp:2026-429:quarterfinal:fb98-r0dg",
       "round": "quarterfinal",
       "start": "2026-11-12T17:30:00Z",
-      "status": "scheduled",
+      "status": "finished",
       "player1": "atp:fb98",
       "player2": "atp:r0dg",
+      "winner": "atp:fb98",
+      "walkover": true,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:semifinal:fb98-m0ej",
+      "round": "semifinal",
+      "start": "2026-11-13T16:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:fb98",
+      "player2": "atp:m0ej",
+      "walkover": false,
+      "retired": false
+    },
+    {
+      "id": "atp:2026-429:semifinal:t0a1-te30",
+      "round": "semifinal",
+      "start": "2026-11-13T13:00:00Z",
+      "status": "scheduled",
+      "player1": "atp:te30",
+      "player2": "atp:t0a1",
       "walkover": false,
       "retired": false
     }
