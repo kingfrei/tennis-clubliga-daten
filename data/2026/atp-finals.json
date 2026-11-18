@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-18T09:40:38Z",
+  "updated_at": "2026-11-18T13:09:36Z",
   "source": "ATP Tour, Tennis.com und tennis-db.com via Claude",
   "tournament": {
     "id": "atp:2026-605",
@@ -112,12 +112,44 @@
       "round": "round_robin",
       "start": "2026-11-17T19:30:00Z",
       "start_estimated": true,
-      "status": "live",
+      "status": "finished",
       "player1": "atp:z355",
       "player2": "atp:s0s1",
-      "winner": null,
+      "winner": "atp:z355",
       "walkover": false,
-      "retired": false
+      "retired": false,
+      "sets": [
+        {
+          "p1": 6,
+          "p2": 2
+        },
+        {
+          "p1": 7,
+          "p2": 6,
+          "tiebreak": {
+            "p1": 7,
+            "p2": 4
+          }
+        }
+      ],
+      "stats": {
+        "atp:z355": {
+          "aces": 14,
+          "double_faults": 0,
+          "breakpoints_won": 2,
+          "breakpoints_total": 8,
+          "service_games_won": 10,
+          "tiebreaks_won": 1
+        },
+        "atp:s0s1": {
+          "aces": 15,
+          "double_faults": 2,
+          "breakpoints_won": 0,
+          "breakpoints_total": 2,
+          "service_games_won": 8,
+          "tiebreaks_won": 0
+        }
+      }
     },
     {
       "id": "atp:2026-605:round_robin:f0f1-j0dz",
